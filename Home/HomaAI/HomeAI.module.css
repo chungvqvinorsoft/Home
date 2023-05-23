@@ -1,0 +1,89 @@
+.header {
+    width: 100%;
+    padding: 16px 34px 24px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.company-name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 8px;
+    margin-left: -18px;
+}
+
+.header-wrapper {
+    width: 100%;
+    background: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.camera {
+    display: flex;
+    flex: 1s;
+    min-width: 277px;
+    margin-top: 30px;
+    flex-direction: row;
+    padding-right: 4px;
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.camera-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    margin-top: 2px;
+
+}
+
+.number-camera {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: #000000;
+    margin-bottom: 4px;
+}
+
+.title-camera {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.4);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.online {
+    color: #0040FF;
+}
+
+.offline {
+    color: #F25B60;
+}
+
+.weak {
+    color: orange;
+}
+
+@media (max-width: 940px) {
+    .header-wrapper {
+        width: 100%;
+        background: #FFFFFF;
+        display: flex;
+        justify-content: none;
+        flex-wrap: wrap;
+    }
+
+    .camera {
+        min-width: 216px;
+    }
+
+    .camera+.camera {
+        padding-left: 0;
+        border-left: 0px solid rgba(0, 0, 0, 0.05);
+    }
+}

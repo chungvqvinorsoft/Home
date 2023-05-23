@@ -1,0 +1,15 @@
+.wrapper {
+    height: 100%;
+    background-color: #E5E5E5;
+    overflow: auto;
+    padding: 0;
+}
+
+.container {
+    padding: 16px 16px 86px;
+    background-color: transparent;
+    width: calc(100% - 1px);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

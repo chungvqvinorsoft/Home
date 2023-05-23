@@ -1,0 +1,28 @@
+.total-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    gap: 10px;
+}
+
+
+.group-camera {
+    display: flex;
+    border-radius: 8px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.group-camera-item {
+    flex: 1;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.total-camera {
+    padding: 16px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}

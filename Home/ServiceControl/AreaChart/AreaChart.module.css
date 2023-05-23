@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chart {
+    width: 100%;
+}
+
+.text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.options {
+    display: flex;
+    gap: 8px;
+}
+
+.button-options {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.active {
+    color: #0040FF;
+}
+
+.select-box {
+    margin-bottom: 22px;
+}
+
+.radio {
+    display: none;
+}

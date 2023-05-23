@@ -1,0 +1,37 @@
+.actions-wrapper {
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.detect-action {
+    flex: 1;
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    /* width: 395px; */
+}
+
+@media only screen and (max-width: 1478px) {
+    .actions-wrapper {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 1344px) {
+    .actions-wrapper {
+        flex-direction: column;
+    }
+
+    .detect-action {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1479px) {
+    .actions-wrapper {
+        flex-wrap: wrap;
+    }
+}
